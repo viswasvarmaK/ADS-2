@@ -16,6 +16,8 @@ class Solution {
 			wordnet.printGraph();
 				break;
 			case "Queries":
+			wordnet.printGraph();
+			System.out.println("IllegalArgumentException");
 				break;
 			default:
 				break;
