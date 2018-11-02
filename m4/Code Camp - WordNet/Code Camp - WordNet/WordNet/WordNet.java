@@ -31,6 +31,11 @@ public class WordNet {
     }
 
     public void printGraph() {
+        DirectedCycle directedcycle = new DirectedCycle(graph);
+        if (directedcycle.hasCycle()) {
+            System.out.println("Cycle detected");
+            return;
+        }
         System.out.println(graph);
     }
 
