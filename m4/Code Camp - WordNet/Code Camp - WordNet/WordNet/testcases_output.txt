@@ -39,7 +39,7 @@ Expected Output:
 distance = 7, ancestor = entity
 distance = 10, ancestor = entity
 Your Output: 
-IllegalArgumentException
+
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -50,7 +50,7 @@ distance = 8, ancestor = macromolecule supermolecule
 distance = 7, ancestor = lipid lipide lipoid
 distance = 1, ancestor = animal_oil
 Your Output: 
-IllegalArgumentException
+
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -58,7 +58,7 @@ distance = 3, ancestor = wax
 distance = 13, ancestor = thing
 distance = 2, ancestor = wax
 Your Output: 
-IllegalArgumentException
+
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -68,7 +68,7 @@ distance = 0, ancestor = d
 distance = 0, ancestor = e
 distance = 0, ancestor = f
 Your Output: 
-IllegalArgumentException
+
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
@@ -83,7 +83,7 @@ distance = 3, ancestor = i
 distance = 2, ancestor = j
 distance = 1, ancestor = k
 Your Output: 
-IllegalArgumentException
+
 ----------------------------------------
 ########## Testcase 6: Failed ##########
 Expected Output: 
@@ -95,7 +95,7 @@ distance = 4, ancestor = h
 distance = 3, ancestor = h
 distance = 1, ancestor = h
 Your Output: 
-IllegalArgumentException
+
 ----------------------------------------
 ########## Testcase 7: Failed ##########
 Expected Output: 
@@ -110,7 +110,7 @@ distance = 3, ancestor = f
 distance = 3, ancestor = f
 distance = 4, ancestor = f
 Your Output: 
-IllegalArgumentException
+
 ----------------------------------------
 ########## Testcase 8: Passed ##########
 Expected Output: 
@@ -146,17 +146,17 @@ Multiple roots
 Your Output: 
 Multiple roots
 ----------------------------------------
-########## Testcase 11: Passed ##########
+########## Testcase 11: Failed ##########
 Expected Output: 
 IllegalArgumentException
 Your Output: 
-IllegalArgumentException
+
 ----------------------------------------
-########## Testcase 12: Passed ##########
+########## Testcase 12: Failed ##########
 Expected Output: 
 IllegalArgumentException
 Your Output: 
-IllegalArgumentException
+
 ----------------------------------------
 ########## Testcase 13: Failed ##########
 Expected Output: 
@@ -178,7 +178,7 @@ distance = 12, ancestor = abstraction abstract_entity
 distance = 0, ancestor = era epoch
 distance = 8, ancestor = abstraction abstract_entity
 Your Output: 
-IllegalArgumentException
+
 ----------------------------------------
 ########## Testcase 14: Passed ##########
 Expected Output: 

@@ -17,7 +17,12 @@ class Solution {
 				break;
 			case "Queries":
 			// wordnet.printGraph();
-			System.out.println("IllegalArgumentException");
+			while(scan.hasNext()) {
+				String[] tokens = scan.nextLine().split(" ");
+				if (tokens[0].equals(null)) {
+					System.out.println("IllegalArgumentException");
+				}
+			}
 				break;
 			default:
 				break;
