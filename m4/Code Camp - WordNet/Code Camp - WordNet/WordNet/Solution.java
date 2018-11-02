@@ -19,7 +19,7 @@ class Solution {
 			// wordnet.printGraph();
 			while(scan.hasNext()) {
 				String[] tokens = scan.nextLine().split(" ");
-				if (tokens[0].equals(null)) {
+				if (tokens[0].equals("null")) {
 					System.out.println("IllegalArgumentException");
 				}
 			}
