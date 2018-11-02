@@ -138,6 +138,7 @@ Your Output:
 Expected Output: 
 Multiple roots
 Your Output: 
+Multiple roots
 6 vertices, 5 edges 
 0: 
 1: 2 0 
@@ -150,6 +151,7 @@ Your Output:
 Expected Output: 
 Multiple roots
 Your Output: 
+Multiple roots
 6 vertices, 4 edges 
 0: 1 
 1: 2 

@@ -46,7 +46,8 @@ public class WordNet {
         if (directedcycle.hasCycle()) {
             System.out.println("Cycle detected");
             return;
-        }
+        } else if  (!multipleRoot(graph))
+        System.out.println("Multiple roots");
         System.out.println(graph);
     }
 
