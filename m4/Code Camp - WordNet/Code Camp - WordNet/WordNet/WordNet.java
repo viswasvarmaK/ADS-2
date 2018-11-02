@@ -29,7 +29,18 @@ public class WordNet {
         }
         return graph;
     }
-
+    public boolean multipleRoot(Digraph graph) {
+        int count = 0;
+        for (int i = 0; i<graph.V(); i++) {
+            if (graph.outdegree(i)==0) {
+                count++;
+            }
+        }
+        if (count == 1) {
+            return true;
+        }
+        return false;
+    }
     public void printGraph() {
         DirectedCycle directedcycle = new DirectedCycle(graph);
         if (directedcycle.hasCycle()) {
