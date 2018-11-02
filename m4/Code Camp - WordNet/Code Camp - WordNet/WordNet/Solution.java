@@ -14,11 +14,33 @@ class Solution {
 		switch (line) {
 			case "Graph":
 			wordnet.printGraph();
-			break;
+				break;
 			case "Queries":
-			break;
+				break;
 			default:
-			break;
+				break;
 		} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	}
 }

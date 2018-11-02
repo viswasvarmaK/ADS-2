@@ -39,7 +39,7 @@ public class WordNet {
         int count = processSynsets(synsets);
         graph = buildGraph(hypernyms, count);
         printGraph();
-        System.out.println("Count = " + count);
+        // System.out.println("Count = " + count);
     }
 
     // returns all WordNet nouns
