@@ -1,0 +1,192 @@
+########## Testcase 0: Failed ##########
+Expected Output: 
+false
+Your Output: 
+
+----------------------------------------
+########## Testcase 1: Failed ##########
+Expected Output: 
+false
+Your Output: 
+
+----------------------------------------
+########## Testcase 2: Failed ##########
+Expected Output: 
+true
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: invalid input format in Graph constructor
+	at Graph.<init>(Graph.java:63)
+	at Solution.main(Solution.java:28)
+Caused by: java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:937)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at Graph.<init>(Graph.java:56)
+	... 1 more
+----------------------------------------
+########## Testcase 3: Failed ##########
+Expected Output: 
+false
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: invalid input format in Graph constructor
+	at Graph.<init>(Graph.java:63)
+	at Solution.main(Solution.java:28)
+Caused by: java.util.NoSuchElementException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:937)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at Graph.<init>(Graph.java:52)
+	... 1 more
+----------------------------------------
+########## Testcase 4: Failed ##########
+Expected Output: 
+true
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: vertex 2 is not between 0 and 1
+	at Graph.validateVertex(Graph.java:109)
+	at Graph.<init>(Graph.java:58)
+	at Solution.main(Solution.java:28)
+----------------------------------------
+########## Testcase 5: Failed ##########
+Expected Output: 
+false
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: vertex 2 is not between 0 and 1
+	at Graph.validateVertex(Graph.java:109)
+	at Graph.<init>(Graph.java:58)
+	at Solution.main(Solution.java:28)
+----------------------------------------
+########## Testcase 6: Failed ##########
+Expected Output: 
+true
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: vertex 3 is not between 0 and 2
+	at Graph.validateVertex(Graph.java:109)
+	at Graph.<init>(Graph.java:57)
+	at Solution.main(Solution.java:28)
+----------------------------------------
+########## Testcase 7: Failed ##########
+Expected Output: 
+true
+Your Output: 
+
+----------------------------------------
+########## Testcase 8: Failed ##########
+Expected Output: 
+true
+Your Output: 
+
+----------------------------------------
+########## Testcase 9: Failed ##########
+Expected Output: 
+true
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: vertex 6 is not between 0 and 5
+	at Graph.validateVertex(Graph.java:109)
+	at Graph.<init>(Graph.java:57)
+	at Solution.main(Solution.java:28)
+----------------------------------------
+########## Testcase 10: Failed ##########
+Expected Output: 
+true
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: vertex 7 is not between 0 and 6
+	at Graph.validateVertex(Graph.java:109)
+	at Graph.<init>(Graph.java:58)
+	at Solution.main(Solution.java:28)
+----------------------------------------
+########## Testcase 11: Failed ##########
+Expected Output: 
+true
+Your Output: 
+
+----------------------------------------
+########## Testcase 12: Failed ##########
+Expected Output: 
+true
+Your Output: 
+
+----------------------------------------
+########## Testcase 13: Failed ##########
+Expected Output: 
+false
+Your Output: 
+
+----------------------------------------
+########## Testcase 14: Failed ##########
+Expected Output: 
+true
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: vertex 10 is not between 0 and 9
+	at Graph.validateVertex(Graph.java:109)
+	at Graph.<init>(Graph.java:57)
+	at Solution.main(Solution.java:28)
+----------------------------------------
+########## Testcase 15: Failed ##########
+Expected Output: 
+false
+Your Output: 
+
+----------------------------------------
+########## Testcase 16: Failed ##########
+Expected Output: 
+true
+Your Output: 
+
+----------------------------------------
+########## Testcase 17: Failed ##########
+Expected Output: 
+true
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: vertex 50 is not between 0 and 49
+	at Graph.validateVertex(Graph.java:109)
+	at Graph.<init>(Graph.java:57)
+	at Solution.main(Solution.java:28)
+----------------------------------------
+########## Testcase 18: Failed ##########
+Expected Output: 
+true
+Your Output: 
+
+----------------------------------------
+########## Testcase 19: Failed ##########
+Expected Output: 
+true
+Your Output: 
+
+----------------------------------------
+########## Testcase 20: Failed ##########
+Expected Output: 
+true
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: vertex 60 is not between 0 and 59
+	at Graph.validateVertex(Graph.java:109)
+	at Graph.<init>(Graph.java:57)
+	at Solution.main(Solution.java:28)
+----------------------------------------
+########## Testcase 21: Failed ##########
+Expected Output: 
+true
+Your Output: 
+
+----------------------------------------
+########## Testcase 22: Failed ##########
+Expected Output: 
+true
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: vertex 101 is not between 0 and 100
+	at Graph.validateVertex(Graph.java:109)
+	at Graph.<init>(Graph.java:57)
+	at Solution.main(Solution.java:28)
+----------------------------------------
+########## Testcase 23: Failed ##########
+Expected Output: 
+true
+Your Output: 
+Exception in thread "main" java.lang.IllegalArgumentException: vertex 98 is not between 0 and 97
+	at Graph.validateVertex(Graph.java:109)
+	at Graph.<init>(Graph.java:58)
+	at Solution.main(Solution.java:28)
+----------------------------------------
