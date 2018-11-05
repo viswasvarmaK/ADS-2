@@ -1,30 +1,35 @@
-/**
- * @author Viswas
+/**.
+ * imports Scanner package
  */
 import java.util.Scanner;
-/**
- *library
+/**.
+ * class for solution.
  */
-import java.util.Arrays;
-/**
- * Class for solution.
- */
-public class Solution {
-    /**
-     * Constructs the object.
+public final class Solution {
+    /**.
+     * Constructor for solution class.
+     * @author Viswas
      */
     private Solution() {
-    }
+        }
     /**
-     * It is thge main method in this we can read the
-     * inputs from the input files and then converted into
-     * the tokens and then send as parameters to the spcified
-     * methods of the classes.
-     * 
+     * main method.
+     *
+     *
      * @param      args  The arguments
      */
     public static void main(final String[] args) {
-        Scanner scan = new Scanner(System.in);
-        Graph G = new Graph(scan);
+        Scanner sc = new Scanner(System.in);
+        int n = Integer.parseInt(sc.nextLine());
+        int[][] m  = new int[n][n];
+        Graph graph = new Graph(n * n + 2);
+        while (sc.hasNext()) {
+            String[] location = sc.nextLine().split(" ");
+            int row = Integer.parseInt(location[0]);
+            int col = Integer.parseInt(location[1]);
+            m[row - 1][col - 1] = 1;
+        }
+        Percolation per = new Percolation();
+        System.out.println(per.check(m, graph, n));
     }
 }
