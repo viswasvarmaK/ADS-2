@@ -1,3 +1,31 @@
+/******************************************************************************
+ *  Compilation:  javac Bag.java
+ *  Execution:    java Bag < input.txt
+ *  Dependencies: StdIn.java StdOut.java
+ *
+ *  A generic bag or multiset, implemented using a singly-linked list.
+ *
+ *  % more tobe.txt 
+ *  to be or not to - be - - that - - - is
+ *
+ *  % java Bag < tobe.txt
+ *  size of bag = 14
+ *  is
+ *  -
+ *  -
+ *  -
+ *  that
+ *  -
+ *  -
+ *  be
+ *  -
+ *  to
+ *  not
+ *  or
+ *  be
+ *  to
+ *
+ ******************************************************************************/
 import java.util.Iterator;
 
 import java.util.NoSuchElementException;
@@ -93,12 +121,11 @@ public class Bag<Item> implements Iterable<Item> {
     }
 
     /**
-
-      * Is the BAG empty?
-
-      * @return true if it is empty.
-
-      */
+     * Returns true if this bag is empty.
+     *
+     * @return {@code true} if this bag is empty;
+     *         {@code false} otherwise
+     */
 
     public boolean isEmpty() {
 
@@ -107,12 +134,10 @@ public class Bag<Item> implements Iterable<Item> {
     }
 
     /**
-
-      * Return the number of items in the bag.
-
-      * @return size of bag.
-
-      */
+     * Returns the number of items in this bag.
+     *
+     * @return the number of items in this bag
+     */
 
     public int size() {
 

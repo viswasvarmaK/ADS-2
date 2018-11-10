@@ -1,8 +1,23 @@
+/**
+ * @author Viswas
+ */
 import java.util.Scanner; 
+/**
+ * Solution class
+ */
 final class Solution {
 
+    /**
+     * default Constructor.
+     */
     private Solution() {
     }
+    /**
+     *the main method is to read the user.
+     * input.
+     *time complexity is V + E.
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
         Scanner s = new Scanner(System.in);
         int vertices = Integer.parseInt(s.nextLine());
@@ -10,7 +25,6 @@ final class Solution {
         Edge e;
         EdgeWeightedGraph ewg
         = new EdgeWeightedGraph(vertices, edges);
-        // DijkstrasSP dijkstraobject;
         for(int i = 0; i < edges; i++) {
             String[] tokens = s.nextLine().split(" ");
             e = new Edge(Integer.parseInt(tokens[0]),
@@ -28,7 +42,7 @@ final class Solution {
 
             break;
         case "ViaPaths":
-                    System.out.println("No Path Found.");
+                System.out.println("No Path Found.");
             break;
         default:
             break;
