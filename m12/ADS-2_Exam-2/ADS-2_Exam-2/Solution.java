@@ -25,11 +25,10 @@ final class Solution {
         Edge e;
         EdgeWeightedGraph ewg
         = new EdgeWeightedGraph(vertices, edges);
-        for(int i = 0; i < edges; i++) {
+        for (int i = 0; i < edges; i++) {
             String[] tokens = s.nextLine().split(" ");
-            e = new Edge(Integer.parseInt(tokens[0]),
-                               Integer.parseInt(tokens[1]),
-                               Double.parseDouble(tokens[2]));
+            e = new Edge(Integer.parseInt(tokens[0]), 
+            	Integer.parseInt(tokens[1]), Double.parseDouble(tokens[2]));
             ewg.addEdge(e);
         }
         String caseToGo = s.nextLine();
@@ -48,5 +47,4 @@ final class Solution {
             break;
         }
     }
-
 }
