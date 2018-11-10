@@ -1,4 +1,3 @@
-
 /**
 
  *class for edge.
@@ -51,9 +50,7 @@ class Edge implements Comparable<Edge> {
 
      */
 
-    Edge(final int v, final int w,
-
-         final double cost) {
+    Edge(final int v, final int w, final double cost) {
 
         this.vertexOne = v;
 
