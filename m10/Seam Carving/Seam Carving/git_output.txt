@@ -1,0 +1,16 @@
+warning: LF will be replaced by CRLF in m10/Seam Carving/Seam Carving/Picture.java.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in m10/Seam Carving/Seam Carving/SeamCarver.java.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in m10/Seam Carving/Seam Carving/Solution.java.
+The file will have its original line endings in your working directory.
+[master 0f20f4c] "ads2_m10_a1_1: 9/9 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 0/1 "
+ 9 files changed, 1420 insertions(+), 749 deletions(-)
+ rewrite m10/Seam Carving/Seam Carving/SeamCarver.class (100%)
+ rewrite m10/Seam Carving/Seam Carving/SeamCarver.java (67%)
+ rewrite m10/Seam Carving/Seam Carving/Solution.class (96%)
+ create mode 100644 m10/Seam Carving/Seam Carving/md5/score.txt
+ create mode 100644 m10/Seam Carving/Seam Carving/result/score.json
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+To https://github.com/viswasvarmaK/ADS-2.git
+   cb37916..0f20f4c  master -> master
