@@ -1,0 +1,4 @@
+Starting audit...
+[ERROR] C:\Users\salpa\Desktop\ADS-2\m14\Assignment-1\Assignment-1\TST.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+Audit done.
+Checkstyle ends with 1 errors.
