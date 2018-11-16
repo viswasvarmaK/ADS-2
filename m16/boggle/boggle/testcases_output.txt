@@ -5,7 +5,7 @@ Your Output:
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 65
 	at TrieST.put(TrieST.java:76)
 	at TrieST.put(TrieST.java:65)
-	at BoggleSolver.<init>(BoggleSolver.java:31)
+	at BoggleSolver.<init>(BoggleSolver.java:28)
 	at Solution.main(Solution.java:27)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
@@ -15,7 +15,7 @@ Your Output:
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 65
 	at TrieST.put(TrieST.java:76)
 	at TrieST.put(TrieST.java:65)
-	at BoggleSolver.<init>(BoggleSolver.java:31)
+	at BoggleSolver.<init>(BoggleSolver.java:28)
 	at Solution.main(Solution.java:27)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
@@ -25,7 +25,7 @@ Your Output:
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 65
 	at TrieST.put(TrieST.java:76)
 	at TrieST.put(TrieST.java:65)
-	at BoggleSolver.<init>(BoggleSolver.java:31)
+	at BoggleSolver.<init>(BoggleSolver.java:28)
 	at Solution.main(Solution.java:27)
 ----------------------------------------
 ########## Testcase 3: Failed ##########
@@ -35,7 +35,7 @@ Your Output:
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 65
 	at TrieST.put(TrieST.java:76)
 	at TrieST.put(TrieST.java:65)
-	at BoggleSolver.<init>(BoggleSolver.java:31)
+	at BoggleSolver.<init>(BoggleSolver.java:28)
 	at Solution.main(Solution.java:27)
 ----------------------------------------
 ########## Testcase 4: Failed ##########
@@ -45,7 +45,7 @@ Your Output:
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 65
 	at TrieST.put(TrieST.java:76)
 	at TrieST.put(TrieST.java:65)
-	at BoggleSolver.<init>(BoggleSolver.java:31)
+	at BoggleSolver.<init>(BoggleSolver.java:28)
 	at Solution.main(Solution.java:27)
 ----------------------------------------
 ########## Testcase 5: Failed ##########
@@ -55,7 +55,7 @@ Your Output:
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 65
 	at TrieST.put(TrieST.java:76)
 	at TrieST.put(TrieST.java:65)
-	at BoggleSolver.<init>(BoggleSolver.java:31)
+	at BoggleSolver.<init>(BoggleSolver.java:28)
 	at Solution.main(Solution.java:27)
 ----------------------------------------
 ########## Testcase 6: Failed ##########
@@ -65,7 +65,7 @@ Your Output:
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 65
 	at TrieST.put(TrieST.java:76)
 	at TrieST.put(TrieST.java:65)
-	at BoggleSolver.<init>(BoggleSolver.java:31)
+	at BoggleSolver.<init>(BoggleSolver.java:28)
 	at Solution.main(Solution.java:27)
 ----------------------------------------
 ########## Testcase 7: Failed ##########
@@ -75,7 +75,7 @@ Your Output:
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 65
 	at TrieST.put(TrieST.java:76)
 	at TrieST.put(TrieST.java:65)
-	at BoggleSolver.<init>(BoggleSolver.java:31)
+	at BoggleSolver.<init>(BoggleSolver.java:28)
 	at Solution.main(Solution.java:27)
 ----------------------------------------
 ########## Testcase 8: Failed ##########
@@ -85,7 +85,7 @@ Your Output:
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 65
 	at TrieST.put(TrieST.java:76)
 	at TrieST.put(TrieST.java:65)
-	at BoggleSolver.<init>(BoggleSolver.java:31)
+	at BoggleSolver.<init>(BoggleSolver.java:28)
 	at Solution.main(Solution.java:27)
 ----------------------------------------
 ########## Testcase 9: Failed ##########
@@ -95,7 +95,7 @@ Your Output:
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 65
 	at TrieST.put(TrieST.java:76)
 	at TrieST.put(TrieST.java:65)
-	at BoggleSolver.<init>(BoggleSolver.java:31)
+	at BoggleSolver.<init>(BoggleSolver.java:28)
 	at Solution.main(Solution.java:27)
 ----------------------------------------
 ########## Testcase 10: Failed ##########
@@ -105,7 +105,7 @@ Your Output:
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 65
 	at TrieST.put(TrieST.java:76)
 	at TrieST.put(TrieST.java:65)
-	at BoggleSolver.<init>(BoggleSolver.java:31)
+	at BoggleSolver.<init>(BoggleSolver.java:28)
 	at Solution.main(Solution.java:27)
 ----------------------------------------
 ########## Testcase 11: Failed ##########
@@ -115,7 +115,7 @@ Your Output:
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 81
 	at TrieST.put(TrieST.java:76)
 	at TrieST.put(TrieST.java:65)
-	at BoggleSolver.<init>(BoggleSolver.java:31)
+	at BoggleSolver.<init>(BoggleSolver.java:28)
 	at Solution.main(Solution.java:27)
 ----------------------------------------
 ########## Testcase 12: Failed ##########
@@ -125,7 +125,7 @@ Your Output:
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 65
 	at TrieST.put(TrieST.java:76)
 	at TrieST.put(TrieST.java:65)
-	at BoggleSolver.<init>(BoggleSolver.java:31)
+	at BoggleSolver.<init>(BoggleSolver.java:28)
 	at Solution.main(Solution.java:27)
 ----------------------------------------
 ########## Testcase 13: Failed ##########
@@ -135,7 +135,7 @@ Your Output:
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 65
 	at TrieST.put(TrieST.java:76)
 	at TrieST.put(TrieST.java:65)
-	at BoggleSolver.<init>(BoggleSolver.java:31)
+	at BoggleSolver.<init>(BoggleSolver.java:28)
 	at Solution.main(Solution.java:27)
 ----------------------------------------
 ########## Testcase 14: Failed ##########
@@ -145,7 +145,7 @@ Your Output:
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 65
 	at TrieST.put(TrieST.java:76)
 	at TrieST.put(TrieST.java:65)
-	at BoggleSolver.<init>(BoggleSolver.java:31)
+	at BoggleSolver.<init>(BoggleSolver.java:28)
 	at Solution.main(Solution.java:27)
 ----------------------------------------
 ########## Testcase 15: Failed ##########
@@ -155,7 +155,7 @@ Your Output:
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 65
 	at TrieST.put(TrieST.java:76)
 	at TrieST.put(TrieST.java:65)
-	at BoggleSolver.<init>(BoggleSolver.java:31)
+	at BoggleSolver.<init>(BoggleSolver.java:28)
 	at Solution.main(Solution.java:27)
 ----------------------------------------
 ########## Testcase 16: Failed ##########
@@ -165,7 +165,7 @@ Your Output:
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 65
 	at TrieST.put(TrieST.java:76)
 	at TrieST.put(TrieST.java:65)
-	at BoggleSolver.<init>(BoggleSolver.java:31)
+	at BoggleSolver.<init>(BoggleSolver.java:28)
 	at Solution.main(Solution.java:27)
 ----------------------------------------
 ########## Testcase 17: Failed ##########
@@ -175,7 +175,7 @@ Your Output:
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 65
 	at TrieST.put(TrieST.java:76)
 	at TrieST.put(TrieST.java:65)
-	at BoggleSolver.<init>(BoggleSolver.java:31)
+	at BoggleSolver.<init>(BoggleSolver.java:28)
 	at Solution.main(Solution.java:27)
 ----------------------------------------
 ########## Testcase 18: Failed ##########
@@ -185,7 +185,7 @@ Your Output:
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 65
 	at TrieST.put(TrieST.java:76)
 	at TrieST.put(TrieST.java:65)
-	at BoggleSolver.<init>(BoggleSolver.java:31)
+	at BoggleSolver.<init>(BoggleSolver.java:28)
 	at Solution.main(Solution.java:27)
 ----------------------------------------
 ########## Testcase 19: Failed ##########
@@ -195,7 +195,7 @@ Your Output:
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 65
 	at TrieST.put(TrieST.java:76)
 	at TrieST.put(TrieST.java:65)
-	at BoggleSolver.<init>(BoggleSolver.java:31)
+	at BoggleSolver.<init>(BoggleSolver.java:28)
 	at Solution.main(Solution.java:27)
 ----------------------------------------
 ########## Testcase 20: Failed ##########
@@ -205,7 +205,7 @@ Your Output:
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 65
 	at TrieST.put(TrieST.java:76)
 	at TrieST.put(TrieST.java:65)
-	at BoggleSolver.<init>(BoggleSolver.java:31)
+	at BoggleSolver.<init>(BoggleSolver.java:28)
 	at Solution.main(Solution.java:27)
 ----------------------------------------
 ########## Testcase 21: Failed ##########
@@ -215,7 +215,7 @@ Your Output:
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 65
 	at TrieST.put(TrieST.java:76)
 	at TrieST.put(TrieST.java:65)
-	at BoggleSolver.<init>(BoggleSolver.java:31)
+	at BoggleSolver.<init>(BoggleSolver.java:28)
 	at Solution.main(Solution.java:27)
 ----------------------------------------
 ########## Testcase 22: Failed ##########
@@ -225,7 +225,7 @@ Your Output:
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 65
 	at TrieST.put(TrieST.java:76)
 	at TrieST.put(TrieST.java:65)
-	at BoggleSolver.<init>(BoggleSolver.java:31)
+	at BoggleSolver.<init>(BoggleSolver.java:28)
 	at Solution.main(Solution.java:27)
 ----------------------------------------
 ########## Testcase 23: Failed ##########
@@ -235,7 +235,7 @@ Your Output:
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 65
 	at TrieST.put(TrieST.java:76)
 	at TrieST.put(TrieST.java:65)
-	at BoggleSolver.<init>(BoggleSolver.java:31)
+	at BoggleSolver.<init>(BoggleSolver.java:28)
 	at Solution.main(Solution.java:27)
 ----------------------------------------
 ########## Testcase 24: Failed ##########
@@ -245,7 +245,7 @@ Your Output:
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 65
 	at TrieST.put(TrieST.java:76)
 	at TrieST.put(TrieST.java:65)
-	at BoggleSolver.<init>(BoggleSolver.java:31)
+	at BoggleSolver.<init>(BoggleSolver.java:28)
 	at Solution.main(Solution.java:27)
 ----------------------------------------
 ########## Testcase 25: Failed ##########
@@ -255,7 +255,7 @@ Your Output:
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 65
 	at TrieST.put(TrieST.java:76)
 	at TrieST.put(TrieST.java:65)
-	at BoggleSolver.<init>(BoggleSolver.java:31)
+	at BoggleSolver.<init>(BoggleSolver.java:28)
 	at Solution.main(Solution.java:27)
 ----------------------------------------
 ########## Testcase 26: Failed ##########
@@ -265,7 +265,7 @@ Your Output:
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 65
 	at TrieST.put(TrieST.java:76)
 	at TrieST.put(TrieST.java:65)
-	at BoggleSolver.<init>(BoggleSolver.java:31)
+	at BoggleSolver.<init>(BoggleSolver.java:28)
 	at Solution.main(Solution.java:27)
 ----------------------------------------
 ########## Testcase 27: Failed ##########
@@ -275,24 +275,22 @@ Your Output:
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 65
 	at TrieST.put(TrieST.java:76)
 	at TrieST.put(TrieST.java:65)
-	at BoggleSolver.<init>(BoggleSolver.java:31)
+	at BoggleSolver.<init>(BoggleSolver.java:28)
 	at Solution.main(Solution.java:27)
 ----------------------------------------
 ########## Testcase 28: Failed ##########
 Expected Output: 
 Score = 32175
 Your Output: 
-1hii
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 65
 	at TrieST.put(TrieST.java:76)
 	at TrieST.put(TrieST.java:65)
-	at BoggleSolver.<init>(BoggleSolver.java:31)
+	at BoggleSolver.<init>(BoggleSolver.java:28)
 	at Solution.main(Solution.java:27)
 ----------------------------------------
 ########## Testcase 29: Failed ##########
 Expected Output: 
 board is null
 Your Output: 
-4hii
 98
 ----------------------------------------
