@@ -1,9 +1,21 @@
+/**.
+ * Class for trie st.
+ *
+ * @param      <Value>  The value
+ */
 public class TrieST<Value> {
+    /**.
+     * Number of alphabets
+     */
     private static final int R = 26;        // extended ASCII
-
-
-    private Node root;      // root of trie
-    private int n;          // number of keys in trie
+    /**.
+     * root of trie
+     */
+    private Node root;  
+    /**.
+     * number of keys in trie
+     */
+    private int n;           
 
     // R-way trie node
     private static class Node {
@@ -11,13 +23,11 @@ public class TrieST<Value> {
         private Node[] next = new Node[R];
     }
 
-   /**
-     * Initializes an empty string symbol table.
-     */
+    /**
+      * Initializes an empty string symbol table.
+      */
     public TrieST() {
     }
-
-
     /**
      * Returns the value associated with the given key.
      * @param key the key
@@ -48,9 +58,27 @@ public class TrieST<Value> {
         if (x == null) return null;
         if (d == key.length()) return x;
         char c = key.charAt(d);
-        return get(x.next[c], key, d+1);
+        return get(x.next[c - 65], key, d + 1);
     }
-
+    public boolean hasPrefix(String prefix) {
+        Node x = get(root,prefix,0);
+        if (x == null) {
+            return false;
+        }
+        if (x.val != null) {
+            return true;
+        }
+        int i;
+        for (i = 0;i<R ;i++ ) {
+            if (x.next[i] !=null) {
+                break;
+            }
+        }
+        if (x.next[i] == null) {
+            return false;
+        }
+      return true;
+    }
     /**
      * Inserts the key-value pair into the symbol table, overwriting the old value
      * with the new value if the key is already in the symbol table.
@@ -73,7 +101,7 @@ public class TrieST<Value> {
             return x;
         }
         char c = key.charAt(d);
-        x.next[c] = put(x.next[c], key, val, d+1);
+        x.next[c-65] = put(x.next[c-65], key, val, d + 1);
         return x;
     }
 
@@ -121,7 +149,7 @@ public class TrieST<Value> {
         if (x.val != null) results.enqueue(prefix.toString());
         for (char c = 0; c < R; c++) {
             prefix.append(c);
-            collect(x.next[c], prefix, results);
+            collect(x.next[c - 65], prefix, results);
             prefix.deleteCharAt(prefix.length() - 1);
         }
     }
@@ -153,8 +181,7 @@ public class TrieST<Value> {
                 collect(x.next[ch], prefix, pattern, results);
                 prefix.deleteCharAt(prefix.length() - 1);
             }
-        }
-        else {
+        } else {
             prefix.append(c);
             collect(x.next[c], prefix, pattern, results);
             prefix.deleteCharAt(prefix.length() - 1);
@@ -185,7 +212,7 @@ public class TrieST<Value> {
         if (x.val != null) length = d;
         if (d == query.length()) return length;
         char c = query.charAt(d);
-        return longestPrefixOf(x.next[c], query, d+1, length);
+        return longestPrefixOf(x.next[c-65], query, d + 1, length);
     }
 
     /**
@@ -197,88 +224,29 @@ public class TrieST<Value> {
         if (key == null) throw new IllegalArgumentException("argument to delete() is null");
         root = delete(root, key, 0);
     }
+    // public boolean hasPrefix(String key) {
+    //     Node x = get(root, key, 0);
+    //     if (x == null) {
+    //         return false;
+    //     }
+    //     return true;
 
+    // }
     private Node delete(Node x, String key, int d) {
         if (x == null) return null;
         if (d == key.length()) {
             if (x.val != null) n--;
             x.val = null;
-        }
-        else {
+        } else {
             char c = key.charAt(d);
-            x.next[c] = delete(x.next[c], key, d+1);
+            x.next[c -65] = delete(x.next[c-65], key, d + 1);
         }
 
         // remove subtrie rooted at x if it is completely empty
         if (x.val != null) return x;
         for (int c = 0; c < R; c++)
-            if (x.next[c] != null)
+            if (x.next[c-65] != null)
                 return x;
         return null;
     }
-
-    // /**
-    //  * Unit tests the {@code TrieST} data type.
-    //  *
-    //  * @param args the command-line arguments
-    //  */
-//     public static void main(String[] args) {
-
-//         // build symbol table from standard input
-//         TrieST<Integer> st = new TrieST<Integer>();
-//         for (int i = 0; !StdIn.isEmpty(); i++) {
-//             String key = StdIn.readString();
-//             st.put(key, i);
-//         }
-
-//         // print results
-//         if (st.size() < 100) {
-//             StdOut.println("keys(\"\"):");
-//             for (String key : st.keys()) {
-//                 StdOut.println(key + " " + st.get(key));
-//             }
-//             StdOut.println();
-//         }
-
-//         StdOut.println("longestPrefixOf(\"shellsort\"):");
-//         StdOut.println(st.longestPrefixOf("shellsort"));
-//         StdOut.println();
-
-//         StdOut.println("longestPrefixOf(\"quicksort\"):");
-//         StdOut.println(st.longestPrefixOf("quicksort"));
-//         StdOut.println();
-
-//         StdOut.println("keysWithPrefix(\"shor\"):");
-//         for (String s : st.keysWithPrefix("shor"))
-//             StdOut.println(s);
-//         StdOut.println();
-
-//         StdOut.println("keysThatMatch(\".he.l.\"):");
-//         for (String s : st.keysThatMatch(".he.l."))
-//             StdOut.println(s);
-//     }
 }
-
-/******************************************************************************
- *  Copyright 2002-2018, Robert Sedgewick and Kevin Wayne.
- *
- *  This file is part of algs4.jar, which accompanies the textbook
- *
- *      Algorithms, 4th edition by Robert Sedgewick and Kevin Wayne,
- *      Addison-Wesley Professional, 2011, ISBN 0-321-57351-X.
- *      http://algs4.cs.princeton.edu
- *
- *
- *  algs4.jar is free software: you can redistribute it and/or modify
- *  it under the terms of the GNU General Public License as published by
- *  the Free Software Foundation, either version 3 of the License, or
- *  (at your option) any later version.
- *
- *  algs4.jar is distributed in the hope that it will be useful,
- *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *  GNU General Public License for more details.
- *
- *  You should have received a copy of the GNU General Public License
- *  along with algs4.jar.  If not, see http://www.gnu.org/licenses.
- ******************************************************************************/
