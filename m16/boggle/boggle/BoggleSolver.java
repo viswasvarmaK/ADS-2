@@ -7,20 +7,26 @@ public class BoggleSolver {
 		for (int i = 0; i < dictionary.length; i++) {
 			if (dictionary[i].length() == 3 || dictionary[i].length() == 4) {
 				score = 1;
+				System.out.println("hii");
 			}
 			if (dictionary[i].length() == 5) {
 				score = 2;
+				System.out.println("1hii");
 			}
 			if (dictionary[i].length() == 6) {
 				score = 3;
+				System.out.println("2hii");
 			}
 			if (dictionary[i].length() == 7) {
 				score = 5;
+				System.out.println("3hii");
 			}
 			if (dictionary[i].length() >= 8) {
 				score = 11;
+				System.out.println("4hii");
 			} else {
 				score = 0;
+				System.out.println("5hii");
 			}
 			triest.put(dictionary[i], score);	
 		}
