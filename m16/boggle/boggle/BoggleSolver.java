@@ -24,9 +24,9 @@ public class BoggleSolver {
 			if (dictionary[i].length() >= 8) {
 				score = 11;
 				System.out.println("4hii");
-			} else {
+			}
+			if (dictionary[i].length() < 3) {
 				score = 0;
-				System.out.println("5hii");
 			}
 			triest.put(dictionary[i], score);	
 		}
