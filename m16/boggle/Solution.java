@@ -15,7 +15,7 @@ public class Solution {
 	/**
 	 * Main method.
 	 *
-	 * @param      args  The arguments
+	 * @param      args  The arguments 
 	 */
 	public static void main(final String[] args) {
 		String caseType = StdIn.readLine();
@@ -31,6 +31,9 @@ public class Solution {
 			int score = 0;
 			for (String word : solver.getAllValidWords(board)) {
 				score += solver.scoreOf(word);
+				System.out.println("words ..."+word);
+				System.out.println("Score" +score);
+
 			}
 			StdOut.println("Score = " + score);
 			break;
