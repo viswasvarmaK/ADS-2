@@ -5,30 +5,25 @@ public class BoggleSolver {
 	int row, col;
 	boolean[][] visited;
 	public BoggleSolver(String[] dictionary) {
-		//int[] count = {0,0,0,1,1,2,3,5,11};
-		int count = 0;
+		//int[] score = {0,0,0,1,1,2,3,5,11};
+		int score = 0;
 		for (int i = 0; i < dictionary.length ; i++ ) {
 			//System.out.println("dictionary words....." +dictionary[i]);
 
 			if (dictionary[i].length() == 0 || dictionary[i].length() == 1 || dictionary[i].length() == 2) {
-				count = 0;
+				score = 0;
 			} else if (dictionary[i].length() == 3 || dictionary[i].length() == 4) {
-				count = 1;
+				score = 1;
 			} else if (dictionary[i].length() == 5) {
-				count = 2;
+				score = 2;
 			} else if (dictionary[i].length() == 6) {
-				count = 3;
+				score = 3;
 			} else if (dictionary[i].length() == 7) {
-				count = 5;
+				score = 5;
 			} else if (dictionary[i].length() >= 8) {
-				count = 11;
+				score = 11;
 			}
-			// score = count[dictionary[i].length()];
-			//System.out.println("word .." +dictionary[i]);
-			//System.out.println("count ..." +count);
-			tst.put(dictionary[i], count);
-
-
+			tst.put(dictionary[i], score);
 		}
 
 	}
