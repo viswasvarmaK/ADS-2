@@ -2,7 +2,6 @@
 Expected Output: 
 Score = 33
 Your Output: 
-2hii
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 65
 	at TrieST.put(TrieST.java:76)
 	at TrieST.put(TrieST.java:65)
@@ -13,7 +12,6 @@ Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 65
 Expected Output: 
 Score = 84
 Your Output: 
-2hii
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 65
 	at TrieST.put(TrieST.java:76)
 	at TrieST.put(TrieST.java:65)

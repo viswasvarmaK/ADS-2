@@ -15,7 +15,7 @@ public class BoggleSolver {
 			}
 			if (dictionary[i].length() == 6) {
 				score = 3;
-				System.out.println("2hii");
+				// System.out.println("2hii");
 			}
 			if (dictionary[i].length() == 7) {
 				score = 5;
