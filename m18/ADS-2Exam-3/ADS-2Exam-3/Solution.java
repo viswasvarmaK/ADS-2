@@ -110,6 +110,10 @@ class T9 {
 
 	public T9(BinarySearchST<String, Integer> st) {
 		// your code goes here
+		TST<Integer> tst = new TST<>();
+		for (String each : st.keys()) {
+			tst.put(each , st.get(each));
+		}	
 	}
 
 	// get all the prefixes that match with given prefix.
@@ -120,14 +124,22 @@ class T9 {
 
 	public Iterable<String> potentialWords(String t9Signature) {
 		// your code goes here
+		// ArrayList<String> list = new ArrayList<String>();
+
+		// if (ch.equals("g") || ch.equals())
 		return null;
 	}
 
 	// return all possibilities(words), find top k with highest frequency.
 	public Iterable<String> getSuggestions(Iterable<String> words, int k) {
 		// your code goes here
+		// ArrayList<String> list = new ArrayList<String>();
+		// MaxpPQ<Integer> pq = new MaxpPQ<Integer>();
+		// for (String i: words) {
+		// 	pq.insert(tst.get(i));
 		return null;
 	}
+
 
 	// final output
 	// Don't modify this method.
