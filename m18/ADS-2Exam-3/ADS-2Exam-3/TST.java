@@ -1,3 +1,8 @@
+/**
+ * Class for tst.
+ *
+ * @param      <Value>  The value
+ */
 public class TST<Value> {
 	private int n;              // size
 	private Node<Value> root;   // root of TST
