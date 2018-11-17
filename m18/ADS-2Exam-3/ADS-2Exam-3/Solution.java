@@ -93,7 +93,7 @@ public class Solution {
 			String words = dictionary[i].toLowerCase();
 			if (st.contains(words)) {
 				int value = st.get(words);
-				st.put(words, value);
+				st.put(words, value + 1);
 			}
 			else {
 				st.put(words, 1);
