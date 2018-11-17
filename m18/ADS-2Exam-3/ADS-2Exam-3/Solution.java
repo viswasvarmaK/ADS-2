@@ -110,7 +110,7 @@ class T9 {
 
 	public T9(BinarySearchST<String, Integer> st) {
 		// your code goes here
-		TST<Integer> tst = new TST<>();
+		tst = new TST<Integer>();
 		for (String i : st.keys()) {
 			tst.put(i , st.get(i));
 		}	
@@ -119,7 +119,7 @@ class T9 {
 	// get all the prefixes that match with given prefix.
 	public Iterable<String> getAllWords(String prefix) {
 		// your code goes here
-		return null;
+		return tst.keysWithPrefix(prefix);
 	}
 
 	public Iterable<String> potentialWords(String t9Signature) {
