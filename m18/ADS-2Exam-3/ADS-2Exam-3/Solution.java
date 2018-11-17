@@ -106,13 +106,13 @@ public class Solution {
 
 class T9 {
 
-	TST<Integer> tst;
+	private TST<Integer> tst;
 
 	public T9(BinarySearchST<String, Integer> st) {
 		// your code goes here
 		TST<Integer> tst = new TST<>();
-		for (String each : st.keys()) {
-			tst.put(each , st.get(each));
+		for (String i : st.keys()) {
+			tst.put(i , st.get(i));
 		}	
 	}
 
