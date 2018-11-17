@@ -33,7 +33,7 @@ import java.util.regex.Pattern;
  *  and standard output. 
  *  <p>
  *  For additional documentation, see 
- *  <a href="https://introcs.cs.princeton.edu/31datatype">Section 3.1</a> of
+ *  <a href="http://introcs.cs.princeton.edu/31datatype">Section 3.1</a> of
  *  <i>Computer Science: An Interdisciplinary Approach</i> 
  *  by Robert Sedgewick and Kevin Wayne.
  *  <p>
@@ -63,14 +63,17 @@ public final class In {
 
     // the default token separator; we maintain the invariant that this value 
     // is held by the scanner's delimiter between calls
-    private static final Pattern WHITESPACE_PATTERN = Pattern.compile("\\p{javaWhitespace}+");
+    private static final Pattern WHITESPACE_PATTERN
+        = Pattern.compile("\\p{javaWhitespace}+");
 
     // makes whitespace characters significant 
-    private static final Pattern EMPTY_PATTERN = Pattern.compile("");
+    private static final Pattern EMPTY_PATTERN
+        = Pattern.compile("");
 
     // used to read the entire input. source:
     // http://weblogs.java.net/blog/pat/archive/2004/10/stupid_scanner_1.html
-    private static final Pattern EVERYTHING_PATTERN = Pattern.compile("\\A");
+    private static final Pattern EVERYTHING_PATTERN
+        = Pattern.compile("\\A");
 
     //// end: section (1 of 2) of code duplicated from In to StdIn.
 
@@ -169,11 +172,6 @@ public final class In {
 
             // next try for files included in jar
             URL url = getClass().getResource(name);
-
-            // try this as well
-            if (url == null) {
-                url = getClass().getClassLoader().getResource(name);
-            }
 
             // or URL from web
             if (url == null) {
@@ -295,8 +293,7 @@ public final class In {
             return ch.charAt(0);
         }
         catch (NoSuchElementException e) {
-            throw new NoSuchElementException("attempts to read a 'char' value from the input stream, "
-                                           + "but no more tokens are available");
+            throw new NoSuchElementException("attempts to read a 'char' value from input stream, but there are no more tokens available");
         }
     }  
 
@@ -328,8 +325,7 @@ public final class In {
             return scanner.next();
         }
         catch (NoSuchElementException e) {
-            throw new NoSuchElementException("attempts to read a 'String' value from the input stream, "
-                                           + "but no more tokens are available");
+            throw new NoSuchElementException("attempts to read a 'String' value from input stream, but there are no more tokens available");
         }
     }
 
@@ -347,12 +343,10 @@ public final class In {
         }
         catch (InputMismatchException e) {
             String token = scanner.next();
-            throw new InputMismatchException("attempts to read an 'int' value from the input stream, "
-                                           + "but the next token is \"" + token + "\"");
+            throw new InputMismatchException("attempts to read an 'int' value from input stream, but the next token is \"" + token + "\"");
         }
         catch (NoSuchElementException e) {
-            throw new NoSuchElementException("attemps to read an 'int' value from the input stream, "
-                                           + "but no more tokens are available");
+            throw new NoSuchElementException("attemps to read an 'int' value from input stream, but there are no more tokens available");
         }
     }
 
@@ -370,12 +364,10 @@ public final class In {
         }
         catch (InputMismatchException e) {
             String token = scanner.next();
-            throw new InputMismatchException("attempts to read a 'double' value from the input stream, "
-                                           + "but the next token is \"" + token + "\"");
+            throw new InputMismatchException("attempts to read a 'double' value from input stream, but the next token is \"" + token + "\"");
         }
         catch (NoSuchElementException e) {
-            throw new NoSuchElementException("attemps to read a 'double' value from the input stream, "
-                                           + "but no more tokens are available");
+            throw new NoSuchElementException("attemps to read a 'double' value from input stream, but there are no more tokens available");
         }
     }
 
@@ -393,12 +385,10 @@ public final class In {
         }
         catch (InputMismatchException e) {
             String token = scanner.next();
-            throw new InputMismatchException("attempts to read a 'float' value from the input stream, "
-                                           + "but the next token is \"" + token + "\"");
+            throw new InputMismatchException("attempts to read a 'float' value from input stream, but the next token is \"" + token + "\"");
         }
         catch (NoSuchElementException e) {
-            throw new NoSuchElementException("attemps to read a 'float' value from the input stream, "
-                                           + "but no more tokens are available");
+            throw new NoSuchElementException("attemps to read a 'float' value from input stream, but there are no more tokens available");
         }
     }
 
@@ -416,12 +406,10 @@ public final class In {
         }
         catch (InputMismatchException e) {
             String token = scanner.next();
-            throw new InputMismatchException("attempts to read a 'long' value from the input stream, "
-                                           + "but the next token is \"" + token + "\"");
+            throw new InputMismatchException("attempts to read a 'long' value from input stream, but the next token is \"" + token + "\"");
         }
         catch (NoSuchElementException e) {
-            throw new NoSuchElementException("attemps to read a 'long' value from the input stream, "
-                                           + "but no more tokens are available");
+            throw new NoSuchElementException("attemps to read a 'long' value from input stream, but there are no more tokens available");
         }
     }
 
@@ -439,12 +427,10 @@ public final class In {
         }
         catch (InputMismatchException e) {
             String token = scanner.next();
-            throw new InputMismatchException("attempts to read a 'short' value from the input stream, "
-                                           + "but the next token is \"" + token + "\"");
+            throw new InputMismatchException("attempts to read a 'short' value from input stream, but the next token is \"" + token + "\"");
         }
         catch (NoSuchElementException e) {
-            throw new NoSuchElementException("attemps to read a 'short' value from the input stream, "
-                                           + "but no more tokens are available");
+            throw new NoSuchElementException("attemps to read a 'short' value from input stream, but there are no more tokens available");
         }
     }
 
@@ -464,12 +450,10 @@ public final class In {
         }
         catch (InputMismatchException e) {
             String token = scanner.next();
-            throw new InputMismatchException("attempts to read a 'byte' value from the input stream, "
-                                           + "but the next token is \"" + token + "\"");
+            throw new InputMismatchException("attempts to read a 'byte' value from input stream, but the next token is \"" + token + "\"");
         }
         catch (NoSuchElementException e) {
-            throw new NoSuchElementException("attemps to read a 'byte' value from the input stream, "
-                                           + "but no more tokens are available");
+            throw new NoSuchElementException("attemps to read a 'byte' value from input stream, but there are no more tokens available");
         }
     }
 
@@ -489,12 +473,10 @@ public final class In {
             if ("false".equalsIgnoreCase(token)) return false;
             if ("1".equals(token))               return true;
             if ("0".equals(token))               return false;
-            throw new InputMismatchException("attempts to read a 'boolean' value from the input stream, "
-                                           + "but the next token is \"" + token + "\"");
+            throw new InputMismatchException("attempts to read a 'boolean' value from input stream, but the next token is \"" + token + "\"");
         }
         catch (NoSuchElementException e) {
-            throw new NoSuchElementException("attempts to read a 'boolean' value from the input stream, "
-                                           + "but no more tokens are available");
+            throw new NoSuchElementException("attempts to read a 'boolean' value from input stream, but there are no more tokens available");
         }
     }
 
@@ -656,4 +638,138 @@ public final class In {
     public static String[] readStrings() {
         return new In().readAllStrings();
     }
+    
+   /**
+     * Unit tests the {@code In} data type.
+     *
+     * @param args the command-line arguments
+     */
+    public static void main(String[] args) {
+        In in;
+        String urlName = "http://introcs.cs.princeton.edu/stdlib/InTest.txt";
+
+        // read from a URL
+        System.out.println("readAll() from URL " + urlName);
+        System.out.println("---------------------------------------------------------------------------");
+        try {
+            in = new In(urlName);
+            System.out.println(in.readAll());
+        }
+        catch (IllegalArgumentException e) {
+            System.out.println(e);
+        }
+        System.out.println();
+
+        // read one line at a time from URL
+        System.out.println("readLine() from URL " + urlName);
+        System.out.println("---------------------------------------------------------------------------");
+        try {
+            in = new In(urlName);
+            while (!in.isEmpty()) {
+                String s = in.readLine();
+                System.out.println(s);
+            }
+        }
+        catch (IllegalArgumentException e) {
+            System.out.println(e);
+        }
+        System.out.println();
+
+        // read one string at a time from URL
+        System.out.println("readString() from URL " + urlName);
+        System.out.println("---------------------------------------------------------------------------");
+        try {
+            in = new In(urlName);
+            while (!in.isEmpty()) {
+                String s = in.readString();
+                System.out.println(s);
+            }
+        }
+        catch (IllegalArgumentException e) {
+            System.out.println(e);
+        }
+        System.out.println();
+
+
+        // read one line at a time from file in current directory
+        System.out.println("readLine() from current directory");
+        System.out.println("---------------------------------------------------------------------------");
+        try {
+            in = new In("./InTest.txt");
+            while (!in.isEmpty()) {
+                String s = in.readLine();
+                System.out.println(s);
+            }
+        }
+        catch (IllegalArgumentException e) {
+            System.out.println(e);
+        }
+        System.out.println();
+
+
+        // read one line at a time from file using relative path
+        System.out.println("readLine() from relative path");
+        System.out.println("---------------------------------------------------------------------------");
+        try {
+            in = new In("../stdlib/InTest.txt");
+            while (!in.isEmpty()) {
+                String s = in.readLine();
+                System.out.println(s);
+            }
+        }
+        catch (IllegalArgumentException e) {
+            System.out.println(e);
+        }
+        System.out.println();
+
+        // read one char at a time
+        System.out.println("readChar() from file");
+        System.out.println("---------------------------------------------------------------------------");
+        try {
+            in = new In("InTest.txt");
+            while (!in.isEmpty()) {
+                char c = in.readChar();
+                System.out.print(c);
+            }
+        }
+        catch (IllegalArgumentException e) {
+            System.out.println(e);
+        }
+        System.out.println();
+        System.out.println();
+
+        // read one line at a time from absolute OS X / Linux path
+        System.out.println("readLine() from absolute OS X / Linux path");
+        System.out.println("---------------------------------------------------------------------------");
+        in = new In("/n/fs/introcs/www/java/stdlib/InTest.txt");
+        try {
+            while (!in.isEmpty()) {
+                String s = in.readLine();
+                System.out.println(s);
+            }
+        }
+        catch (IllegalArgumentException e) {
+            System.out.println(e);
+        }
+        System.out.println();
+
+
+        // read one line at a time from absolute Windows path
+        System.out.println("readLine() from absolute Windows path");
+        System.out.println("---------------------------------------------------------------------------");
+        try {
+            in = new In("G:\\www\\introcs\\stdlib\\InTest.txt");
+            while (!in.isEmpty()) {
+                String s = in.readLine();
+                System.out.println(s);
+            }
+            System.out.println();
+        }
+        catch (IllegalArgumentException e) {
+            System.out.println(e);
+        }
+        System.out.println();
+
+    }
+
 }
