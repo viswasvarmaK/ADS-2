@@ -1,6 +1,21 @@
+/**
+ * @author Viswas.
+ */
 import java.util.Scanner;
+/**
+ * java inbuilt package
+ */
+import java.util.Collections;
+/**
+ * arraylist paskage 
+ */
+import java.util.ArrayList;
 
 
+
+/**
+ * Class for solution.
+ */
 public class Solution {
 
 	// Don't modify this method.
@@ -131,13 +146,23 @@ class T9 {
 	}
 
 	// return all possibilities(words), find top k with highest frequency.
-	public Iterable<String> getSuggestions(Iterable<String> words, int k) {
+	public Iterable<String> getSuggestions(Iterable<String> words, final int k) {
 		// your code goes here
-		// ArrayList<String> list = new ArrayList<String>();
-		// MaxpPQ<Integer> pq = new MaxpPQ<Integer>();
-		// for (String i: words) {
-		// 	pq.insert(tst.get(i));
-		return null;
+		ArrayList<String> list = new ArrayList<String>();
+		MaxPQ<Integer> pq = new MaxPQ<Integer>();
+		for (String i: words) {
+			pq.insert(tst.get(i));
+		}
+		for (int i = 0; i < k; i++) {
+			int maxvalue = pq.delMax();
+			for (String word : words) {
+				if (maxvalue == tst.get(word)) {
+					list.add(word);
+				}
+			} 
+		}
+		Collections.sort(list);
+		return list;
 	}
 
 
