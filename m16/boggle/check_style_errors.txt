@@ -46,8 +46,12 @@ Starting audit...
 [ERROR] C:\Users\salpa\Desktop\ADS-2\m16\boggle\TrieST.java:96:53: Parameter d should be final. [FinalParameters]
 [ERROR] C:\Users\salpa\Desktop\ADS-2\m16\boggle\TrieST.java:97: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] C:\Users\salpa\Desktop\ADS-2\m16\boggle\TrieST.java:99: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\Users\salpa\Desktop\ADS-2\m16\boggle\TrieST.java:104:20: '65' is a magic number. [MagicNumber]
-[ERROR] C:\Users\salpa\Desktop\ADS-2\m16\boggle\TrieST.java:104:41: '65' is a magic number. [MagicNumber]
+[ERROR] C:\Users\salpa\Desktop\ADS-2\m16\boggle\TrieST.java:104:17: '-' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\salpa\Desktop\ADS-2\m16\boggle\TrieST.java:104:18: '-' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\salpa\Desktop\ADS-2\m16\boggle\TrieST.java:104:18: '65' is a magic number. [MagicNumber]
+[ERROR] C:\Users\salpa\Desktop\ADS-2\m16\boggle\TrieST.java:104:36: '-' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\salpa\Desktop\ADS-2\m16\boggle\TrieST.java:104:37: '-' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\salpa\Desktop\ADS-2\m16\boggle\TrieST.java:104:37: '65' is a magic number. [MagicNumber]
 [ERROR] C:\Users\salpa\Desktop\ADS-2\m16\boggle\TrieST.java:118: Line is longer than 80 characters (found 88). [LineLength]
 [ERROR] C:\Users\salpa\Desktop\ADS-2\m16\boggle\TrieST.java:147: Line is longer than 80 characters (found 82). [LineLength]
 [ERROR] C:\Users\salpa\Desktop\ADS-2\m16\boggle\TrieST.java:158: Line is longer than 80 characters (found 81). [LineLength]
@@ -79,4 +83,4 @@ Starting audit...
 [ERROR] C:\Users\salpa\Desktop\ADS-2\m16\boggle\TrieST.java:248:26: '-' is not followed by whitespace. [WhitespaceAround]
 [ERROR] C:\Users\salpa\Desktop\ADS-2\m16\boggle\TrieST.java:248:26: '65' is a magic number. [MagicNumber]
 Audit done.
-Checkstyle ends with 79 errors.
+Checkstyle ends with 83 errors.
