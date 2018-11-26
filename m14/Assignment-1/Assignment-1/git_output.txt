@@ -1,0 +1,13 @@
+warning: LF will be replaced by CRLF in m14/Assignment-1/Assignment-1/Queue.java.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in m14/Assignment-1/Assignment-1/Solution.java.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in m14/Assignment-1/Assignment-1/TST.java.
+The file will have its original line endings in your working directory.
+[master d74a7e9] "ads2_m14_a1_1: 6/6 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 1/1 "
+ 6 files changed, 3 insertions(+), 665 deletions(-)
+ delete mode 100644 m14/Assignment-1/Assignment-1/In.java
+ rewrite m14/Assignment-1/Assignment-1/result/score.json (76%)
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+To https://github.com/viswasvarmaK/ADS-2.git
+   31341c2..d74a7e9  master -> master

@@ -1,0 +1,140 @@
+warning: LF will be replaced by CRLF in m10/Seam Carving/Seam Carving/git_output.txt.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in m10/Seam Carving/Picture.java.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in m10/Seam Carving/SCUtility.java.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in m10/Seam Carving/input004.txt.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in m10/Seam Carving/o6.txt.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in m10/Seam Carving/o7.txt.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in m10/Seam Carving/testcases/input000.txt.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in m10/Seam Carving/testcases/input001.txt.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in m10/Seam Carving/testcases/input002.txt.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in m10/Seam Carving/testcases/input003.txt.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in m10/Seam Carving/testcases/input004.txt.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in m10/Seam Carving/testcases/input005.txt.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in m10/Seam Carving/testcases/input006.txt.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in m10/Seam Carving/testcases/input007.txt.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in m10/Seam Carving/testcases/input008.txt.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in m10/Seam Carving/testcases/output000.txt.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in m10/Seam Carving/testcases/output001.txt.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in m10/Seam Carving/testcases/output002.txt.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in m10/Seam Carving/testcases/output003.txt.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in m10/Seam Carving/testcases/output004.txt.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in m10/Seam Carving/testcases/output005.txt.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in m10/Seam Carving/testcases/output006.txt.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in m10/Seam Carving/testcases/output007.txt.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in m10/Seam Carving/testcases/output008.txt.
+The file will have its original line endings in your working directory.
+[master d247c5d] "ads2_m10_a1_1: 9/9 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 1/1 "
+ 89 files changed, 5168 insertions(+), 2 deletions(-)
+ create mode 100644 m10/Seam Carving/.DS_Store
+ create mode 100644 m10/Seam Carving/Files/10x10.png
+ create mode 100644 m10/Seam Carving/Files/10x12.png
+ create mode 100644 m10/Seam Carving/Files/12x10.png
+ create mode 100644 m10/Seam Carving/Files/1x1.png
+ create mode 100644 m10/Seam Carving/Files/1x8.png
+ create mode 100644 m10/Seam Carving/Files/3x4.png
+ create mode 100644 m10/Seam Carving/Files/3x7.png
+ create mode 100644 m10/Seam Carving/Files/4x6.png
+ create mode 100644 m10/Seam Carving/Files/5x6.png
+ create mode 100644 m10/Seam Carving/Files/6x5.png
+ create mode 100644 m10/Seam Carving/Files/7x10.png
+ create mode 100644 m10/Seam Carving/Files/7x3.png
+ create mode 100644 m10/Seam Carving/Files/8x1.png
+ create mode 100644 m10/Seam Carving/Files/HJoceanSmall.png
+ create mode 100644 m10/Seam Carving/Files/HJoceanTransposed.png
+ create mode 100644 m10/Seam Carving/Files/chameleon.png
+ create mode 100644 m10/Seam Carving/Files/diagonals.png
+ create mode 100644 m10/Seam Carving/Files/logo.png
+ create mode 100644 m10/Seam Carving/Files/stripes.png
+ create mode 100644 m10/Seam Carving/Picture.class
+ create mode 100644 m10/Seam Carving/Picture.java
+ create mode 100644 m10/Seam Carving/PrintEnergy.class
+ create mode 100644 m10/Seam Carving/PrintEnergy.java
+ create mode 100644 m10/Seam Carving/PrintSeams.class
+ create mode 100644 m10/Seam Carving/PrintSeams.java
+ create mode 100644 m10/Seam Carving/ResizeDemo.java
+ create mode 100644 m10/Seam Carving/SCUtility.java
+ create mode 100644 m10/Seam Carving/Seam Carving.pdf
+ rewrite m10/Seam Carving/Seam Carving/result/score.json (91%)
+ create mode 100644 m10/Seam Carving/SeamCarver.class
+ create mode 100644 m10/Seam Carving/SeamCarver.java
+ create mode 100644 m10/Seam Carving/ShowEnergy.java
+ create mode 100644 m10/Seam Carving/ShowSeams.java
+ create mode 100644 m10/Seam Carving/Solution.class
+ create mode 100644 m10/Seam Carving/Solution.java
+ create mode 100644 m10/Seam Carving/StdOut.class
+ create mode 100644 m10/Seam Carving/StdOut.java
+ create mode 100644 m10/Seam Carving/check_style_errors.txt
+ create mode 100644 m10/Seam Carving/git_output.txt
+ create mode 100644 m10/Seam Carving/input004.txt
+ create mode 100644 m10/Seam Carving/md5/input000.txt
+ create mode 100644 m10/Seam Carving/md5/input001.txt
+ create mode 100644 m10/Seam Carving/md5/input002.txt
+ create mode 100644 m10/Seam Carving/md5/input003.txt
+ create mode 100644 m10/Seam Carving/md5/input004.txt
+ create mode 100644 m10/Seam Carving/md5/input005.txt
+ create mode 100644 m10/Seam Carving/md5/input006.txt
+ create mode 100644 m10/Seam Carving/md5/input007.txt
+ create mode 100644 m10/Seam Carving/md5/input008.txt
+ create mode 100644 m10/Seam Carving/md5/output000.txt
+ create mode 100644 m10/Seam Carving/md5/output001.txt
+ create mode 100644 m10/Seam Carving/md5/output002.txt
+ create mode 100644 m10/Seam Carving/md5/output003.txt
+ create mode 100644 m10/Seam Carving/md5/output004.txt
+ create mode 100644 m10/Seam Carving/md5/output005.txt
+ create mode 100644 m10/Seam Carving/md5/output006.txt
+ create mode 100644 m10/Seam Carving/md5/output007.txt
+ create mode 100644 m10/Seam Carving/md5/output008.txt
+ create mode 100644 m10/Seam Carving/md5/problem_id.txt
+ create mode 100644 m10/Seam Carving/md5/score.txt
+ create mode 100644 m10/Seam Carving/o4.txt
+ create mode 100644 m10/Seam Carving/o41.txt
+ create mode 100644 m10/Seam Carving/o5.txt
+ create mode 100644 m10/Seam Carving/o6.txt
+ create mode 100644 m10/Seam Carving/o7.txt
+ create mode 100644 m10/Seam Carving/result/score.json
+ create mode 100644 m10/Seam Carving/testcases/input000.txt
+ create mode 100644 m10/Seam Carving/testcases/input001.txt
+ create mode 100644 m10/Seam Carving/testcases/input002.txt
+ create mode 100644 m10/Seam Carving/testcases/input003.txt
+ create mode 100644 m10/Seam Carving/testcases/input004.txt
+ create mode 100644 m10/Seam Carving/testcases/input005.txt
+ create mode 100644 m10/Seam Carving/testcases/input006.txt
+ create mode 100644 m10/Seam Carving/testcases/input007.txt
+ create mode 100644 m10/Seam Carving/testcases/input008.txt
+ create mode 100644 m10/Seam Carving/testcases/output000.txt
+ create mode 100644 m10/Seam Carving/testcases/output001.txt
+ create mode 100644 m10/Seam Carving/testcases/output002.txt
+ create mode 100644 m10/Seam Carving/testcases/output003.txt
+ create mode 100644 m10/Seam Carving/testcases/output004.txt
+ create mode 100644 m10/Seam Carving/testcases/output005.txt
+ create mode 100644 m10/Seam Carving/testcases/output006.txt
+ create mode 100644 m10/Seam Carving/testcases/output007.txt
+ create mode 100644 m10/Seam Carving/testcases/output008.txt
+ create mode 100644 m10/Seam Carving/testcases/problem_id.txt
+ create mode 100644 m10/Seam Carving/testcases_output.txt
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+To https://github.com/viswasvarmaK/ADS-2.git
+   253a0ef..d247c5d  master -> master

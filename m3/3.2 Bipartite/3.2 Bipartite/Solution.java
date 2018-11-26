@@ -37,3 +37,28 @@ public final class Solution {
         }
     }
 }
+
+case "DirectedPaths":
+            String[] queries = s.nextLine().split(" ");
+            dijkstraobject = new DijkstrasSP(ewg, Integer.parseInt(queries[0]));
+            if(dijkstraobject.hasPathTo(Integer.parseInt(queries[1]))) {
+                System.out.println(dijkstraobject.distance(Integer.parseInt(queries[1])));
+            } else {
+                System.out.println("No Path Found.");
+            }
+            break;
+        case "ViaPaths":
+            String[] viapath = s.nextLine().split(" ");
+            dijkstraobject = new DijkstrasSP(ewg, Integer.parseInt(viapath[0]));
+            if(dijkstraobject.hasPathTo(Integer.parseInt(viapath[2]))) {
+                if(dijkstraobject.viaPath(Integer.parseInt(viapath[2]), Integer.parseInt(viapath[1]))) {
+                    System.out.println(dijkstraobject.distance(Integer.parseInt(viapath[2])));
+                    dijkstraobject.printPath(Integer.parseInt(viapath[2]));
+                }
+            } else {
+                    System.out.println("No Path Found.");
+            }
+
+            break;
+        default:
+            break;
